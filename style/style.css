@@ -172,6 +172,93 @@
     border-radius: 12px;
 }
 
+/* main section style */
+.Curriculum{
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 60px;
+    font-weight: 700px;
+    font-size: 46px;
+}
+
+
+.Standard{
+    justify-content: space-around;
+    margin-left: 140px;
+    margin-right: 140px;
+    gap: 28px;
+    background-image: url(../assets/bg.png);
+}
+
+/* card styles */
+.card-title{
+    color: rgba(32, 32, 32, 1);
+    font-weight: 700;
+    font-size: 25px;
+}
+.card-sub-title{
+    color: rgba(128, 128, 128, 1);
+    font-weight: 500px;
+    font-size: 15px;
+}
+
+.card-destribution-1{
+    color: rgba(100, 200, 255, 1);
+    font-weight: 700px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+
+    
+}
+
+.card-destribution-2{
+    color: rgba(240, 170, 0, 1);
+    font-weight: 700px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    
+}
+
+.card-destribution-3{
+    
+    color: rgba(135, 0, 255, 1);
+    font-weight: 700px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    
+}
+
+.card{
+    text-align: center;
+    background-color: rgba(222, 245, 255, 1);
+    width: 365px;
+    border: 1px solid tomato;
+    border-radius: 18px;
+}
+
+.card-2{
+    text-align: center;
+    background-color: rgba(255, 244, 220, 1);
+    width: 365px;
+    border: 1px solid tomato;
+    border-radius: 18px;
+}
+
+.card-3{
+    text-align: center;
+    background-color: rgba(242, 232, 255, 1);
+    width: 365px;
+    border: 1px solid tomato;
+    border-radius: 18px;
+}
+
+
+.content{
+    justify-items: center;
+}
 
 
 
@@ -227,6 +314,20 @@
    
    
 }
-  
+
+.Standard{
+    flex-direction: column;
+    width: 100%;
+   height: 51%;
+   margin-left: 1.25rem;
+}
+.Curriculum{
+   
+    color: rgba(0, 0, 0, 1);
+    margin-top: 60px;
+    font-weight: 260px;
+    font-size: 46px;
+}  
+
 }
  
